@@ -14,82 +14,82 @@
 
   <!-- إعراب - Arabic Grammar Analysis -->
   <url>
-    <loc>https://seebawayhgpt.io/irab</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/irab"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 
   <!-- تشكيل - Arabic Diacritization -->
   <url>
-    <loc>https://seebawayhgpt.io/tashkeel</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/tashkeel"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 
   <!-- الشعر العربي - Arabic Poetry -->
   <url>
-    <loc>https://seebawayhgpt.io/poetry</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/poetry"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 
   <!-- قواعد النحو - Grammar Rules -->
   <url>
-    <loc>https://seebawayhgpt.io/grammar-rules</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/grammar-rules"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 
   <!-- النحو - Arabic Syntax -->
   <url>
-    <loc>https://seebawayhgpt.io/nahw</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/nahw"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 
   <!-- الصرف - Arabic Morphology -->
   <url>
-    <loc>https://seebawayhgpt.io/sarf</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/sarf"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 
   <!-- البلاغة - Arabic Rhetoric -->
   <url>
-    <loc>https://seebawayhgpt.io/balagha</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/balagha"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 
   <!-- الأمثال - Arabic Proverbs -->
   <url>
-    <loc>https://seebawayhgpt.io/amthal</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/amthal"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 
   <!-- عن سيبويه - About -->
   <url>
-    <loc>https://seebawayhgpt.io/about</loc>
+    <loc>https://seebawayhgpt.io</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io/about"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://seebawayhgpt.io"/>
   </url>
 </urlset>
