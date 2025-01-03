@@ -1,6 +1,7 @@
 export function formatResponse(response: string): string {
   const sections = response.split('\n').filter(line => line.trim().length > 0);
   
+  let originalText = '';
   let tashkeel = '';
   let irab = '';
   let istishhad = '';
@@ -27,6 +28,9 @@ export function formatResponse(response: string): string {
     
     if (line) {
       switch (currentSection) {
+        case '':
+          originalText = line; // First non-empty line before any section is the original text
+          break;
         case 'tashkeel':
           tashkeel = line;
           break;
@@ -43,7 +47,7 @@ export function formatResponse(response: string): string {
     }
   }
 
-  const formattedResponse = [tashkeel, irab, istishhad]
+  const formattedResponse = [originalText, tashkeel, irab, istishhad]
     .filter(Boolean)
     .join('\n\n');
 

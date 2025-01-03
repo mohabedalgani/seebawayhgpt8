@@ -63,7 +63,11 @@ export function ChatMessage({ message, isLoading = false }: ChatMessageProps) {
 
   // Handle analysis response with sections
   const sections = message.content.split('\n\n').filter(Boolean);
-  const [tashkeel, irab, istishhad, notes] = sections;
+  const [originalText, tashkeel, irab, istishhad, notes] = sections;
+
+  // Extract language type from original text
+  const isClassical = originalText.includes('[فصحى]');
+  const textWithoutLabel = originalText.replace(/\[(فصحى|عامي)\]\s*/, '');
 
   return (
     <div className="flex gap-4 p-4 bg-gray-50 flex-row-reverse">
@@ -77,6 +81,21 @@ export function ChatMessage({ message, isLoading = false }: ChatMessageProps) {
       <div className="flex-1 space-y-4">
         <p className="text-sm text-gray-600 mb-1">{APP_CONFIG.BOT_NAME}</p>
         
+        {/* النص الأصلي */}
+        <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
+          <div className="flex justify-between items-center mb-2">
+            <h3 className="text-gray-800 font-semibold">النص الأصلي</h3>
+            <span className={`px-2 py-1 text-sm rounded ${
+              isClassical 
+                ? 'bg-green-100 text-green-800' 
+                : 'bg-amber-100 text-amber-800'
+            }`}>
+              {isClassical ? 'فصحى' : 'عامي'}
+            </span>
+          </div>
+          <p className="text-gray-800 whitespace-pre-wrap">{textWithoutLabel}</p>
+        </div>
+
         {/* التشكيل */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
           <h3 className="text-blue-800 font-semibold mb-2">التشكيل</h3>
