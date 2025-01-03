@@ -6,6 +6,7 @@ import { ShareButtons } from './components/ShareButtons';
 import { IntroSection } from './components/IntroSection';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import { SEOContent } from './components/SEOContent';
 import { sendMessage as sendMessageToAPI } from './services/deepseek';
 import { APP_CONFIG } from './config/constants';
 import type { Message } from './types';
@@ -60,6 +61,8 @@ export default function App() {
           <Header />
         </div>
       </header>
+
+      <SEOContent />
 
       {messages.length === 0 && (
         <IntroSection onExampleSelect={handleMessage} />
