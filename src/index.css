@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased text-gray-900;
+}
+
+textarea {
+  @apply focus:outline-none;
+}
+
+/* RTL specific styles */
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Fix input direction for English text */
+input[type="text"],
+input[type="email"],
+textarea {
+  direction: rtl;
+  text-align: right;
+}

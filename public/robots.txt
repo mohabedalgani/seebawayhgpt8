@@ -1,0 +1,38 @@
+# robots.txt for https://seebawayhgpt.io
+# Updated: 2024-03-14
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Allow: /irab                  # إعراب - Arabic Grammar Analysis
+Allow: /tashkeel             # تشكيل - Arabic Diacritics
+Allow: /poetry               # الشعر العربي - Arabic Poetry
+Allow: /grammar-rules        # قواعد النحو - Grammar Rules
+Allow: /about               # عن سيبويه - About Seebawayh
+
+# Arabic content sections
+Allow: /nahw                # النحو - Arabic Syntax
+Allow: /sarf                # الصرف - Arabic Morphology
+Allow: /balagha             # البلاغة - Arabic Rhetoric
+Allow: /amthal              # الأمثال - Arabic Proverbs
+
+# Prevent crawling of search results
+Disallow: /search
+Disallow: /bahth            # بحث - Arabic Search
+Disallow: /*?q=
+Disallow: /*?query=
+Disallow: /*?بحث=
+
+# Prevent crawling of response URLs
+Disallow: /api/
+Disallow: /*.json$
+
+# Crawl-delay for heavy crawlers
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://seebawayhgpt.io/sitemap.xml
+Sitemap: https://seebawayhgpt.io/sitemap-ar.xml
+
+# Host directive
+Host: seebawayhgpt.io
